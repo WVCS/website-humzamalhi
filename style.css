@@ -1,11 +1,39 @@
-h1 {
-color: brown;
-  text-align: center;
+body{
+  background-color:green;
 }
-h2 {
-color: brown;
-  text-align: center;
+h2{
+  color:white;
+  font-size:400%;
+  letter-spacing:6px;
+  text-decoration: underline;
 }
-body {
-  background-color: yellow
+p{
+  color:white;
+  font-size: 200%;
+}
+img{
+  border: dotted white 10px;
+}
+iframe{
+  border: dashed white 10px; 
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+li{
+  float: left;
+}
+li a{
+  padding: 50px;
+  font-family: "Papyrus", Fantasy;
+  border-style: dashed;
+  color: white;
+  text-decoration-line: none;
+}
+li a:hover{
+  background-color: white;
+  color: green;
 }
